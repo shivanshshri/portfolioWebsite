@@ -6,15 +6,17 @@ html{
     scroll-behavior: smooth;
 }
 html{
-    background-color: rgb(89, 0, 31);
+    background-image: linear-gradient(90deg, rgb(0, 0, 66),rgb(0, 0, 97),black);
+}
+a{
+    text-decoration: none;
 }
 nav{
     margin-top: 20px;
-    height: 70px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
 }
 #portfolioHead{
     font-size: 1.3rem;
@@ -23,6 +25,8 @@ nav{
     margin-left: 50px;
     color: white;
     font-family: 'Playfair Display', sans-serif;
+    font-size: 2.9rem;
+    font-weight: bolder;
 }
 .right{
     color: white;
@@ -30,6 +34,7 @@ nav{
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 .right ul{
     display: flex;
@@ -49,9 +54,45 @@ nav ul li a{
 }
 .hireMe{
     margin-left: 200px;
+    border: 2px solid orange;
+    border-radius: 80px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.943),rgb(247, 39, 39),rgb(172, 112, 1),yellow);
+    height: 30px;
+    width:80px;
+    text-align: center;
+    padding: 10px;
 }
-.hireMe a{
+
+
+#hireMe{
     text-decoration: none;
-    color: white;
-    
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding: 10px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 70px;
+}
+.text{
+    color:aliceblue;
+    font-size: 7rem;
+    margin-top: 80px;
+    word-spacing: 0.3ch;
+    line-height: 2.4ch;
+    margin-left: 100px;
+}
+.image{
+    background-image: url('myImage.jpg');
+    height: 500px;
+    width:350px;
+    border-radius: 155px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 200px;
 }
