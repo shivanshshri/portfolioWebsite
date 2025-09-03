@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+html{
+    background-color: rgb(89, 0, 31);
+}
+nav{
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+#portfolioHead{
+    font-size: 1.3rem;
+}
+.left{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+}
+.right{
+    color: white;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.right ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 20px;
+    text-decoration: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.hireMe{
+    margin-left: 200px;
+}
+.hireMe a{
+    text-decoration: none;
+    color: white;
+    
+}
