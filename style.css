@@ -87,9 +87,9 @@ nav ul li a{
     margin-left: 100px;
     width: 50%;
 }
-#subtext{
-    font-size: 1.3rem;
-    margin-top: 40px;
+#subtextHome{
+    font-size: 1.2rem;
+    margin-top: 60px;
     font-family: 'poppins', sans-serif;
     word-spacing: 0.6ch;
 }
@@ -105,15 +105,72 @@ nav ul li a{
 
 .knowAbout{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 700;
     font-family: 'poppins', sans-serif;
-    margin-top: 40px;
+    margin-top: 20px;
     background-image: linear-gradient(45deg,red,red,orange);
     height: 30px;
     width: 120px;
     padding: 10px;
     text-align: center;
     border-radius: 30px;
-   
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.imageAbout{
+    background-image: url('imageAbout.jpg');
+    margin-top: 40px;
+    height: 550px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 80px;
+}
+.aboutMeText{
+    width: 600px;
+    margin-top: 10px;
+}
+#headAbout{
+    color: aliceblue;
+    font-size: 2.9rem;
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.bgAbout{
+    background-color:rgba(0, 0, 0, 0.218) ;
+    margin-top: 20px;
+    padding: 40px;
+}
+#subtextAbout{
+    color: aliceblue;
+    margin-top: 00px;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    font-size: 1.3rem;
+}
+
+.knowMe{
+    margin-top: 30px;
+    margin-left: 0px;
+    border: 2px;
+    border-radius: 80px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.943),rgb(247, 39, 39),rgb(172, 112, 1));
+    height: 30px;
+    width:100px;
+    text-align: center;
+    padding: 0px;
+}
+#knowMe{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.2ch;
+    font-family: 'playfair display',sans-serif;
+    font-weight:100;
+    padding: 5px;
 }
