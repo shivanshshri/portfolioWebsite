@@ -363,5 +363,26 @@ footer{
     }
     .portfolio1{
         width: 90%;
+        margin: 10px 0;
+    }
+    .servicesblock1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+        align-items: center;
     }
 }
