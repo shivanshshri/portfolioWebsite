@@ -97,6 +97,7 @@ nav ul li a{
     background-image: url('myImage.jpg');
     height: 500px;
     width:350px;
+    position: relative;
     border-radius: 105px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -193,13 +194,14 @@ nav ul li a{
 }
 .serviceBoxes{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.943),rgb(247, 39, 39),rgb(225, 152, 15));
-    height: 60%;
     width: 100%;
     padding: 30px;
     margin-top: 40px;
     border-radius: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    position: relative;
+    aspect-ratio: 16/9;
 }
 #serviceHeading{
     text-align: center;
@@ -242,21 +244,21 @@ nav ul li a{
     background-size: cover;
     position: relative;
     max-width: 100%;
-    height: auto;
+    aspect-ratio: 16/9;
 }
 #image2_portfolio{
     background-image: url('portfolio_portfolioNew.png');
     background-size: cover;
     position: relative;
     max-width: 100%;
-    height: auto;
+    aspect-ratio: 16/9;
 }
 #image3_portfolio{
     background-image: url('portfolio_weather.jpg');
     background-size: cover;
     position: relative;
     max-width: 100%;
-    height: auto;
+    aspect-ratio: 16/9;
 }
 #portfolioTitle{
     font-size: 2rem;
