@@ -240,18 +240,21 @@ nav ul li a{
 #image1_portfolio{
     background-image: url('portfolio_e-commerce.jpg');
     background-size: cover;
+    position: relative;
     max-width: 100%;
     height: auto;
 }
 #image2_portfolio{
     background-image: url('portfolio_portfolioNew.png');
     background-size: cover;
+    position: relative;
     max-width: 100%;
     height: auto;
 }
 #image3_portfolio{
     background-image: url('portfolio_weather.jpg');
     background-size: cover;
+    position: relative;
     max-width: 100%;
     height: auto;
 }
