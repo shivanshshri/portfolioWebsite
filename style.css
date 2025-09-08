@@ -247,6 +247,7 @@ nav ul li a{
     max-width: 100%;
     min-height: 200px;
     aspect-ratio: 16/9;
+    object-fit: contain;
 }
 #image2_portfolio{
     background-image: url('portfolio_portfolioNew.png');
@@ -255,6 +256,7 @@ nav ul li a{
     max-width: 100%;
     min-height: 200px;
     aspect-ratio: 16/9;
+    object-fit: contain;
 }
 #image3_portfolio{
     background-image: url('portfolio_weather.jpg');
@@ -263,6 +265,7 @@ nav ul li a{
     max-width: 100%;
     min-height: 200px;
     aspect-ratio: 16/9;
+    object-fit: contain;
 }
 #portfolioTitle{
     font-size: 2rem;
@@ -363,7 +366,7 @@ footer{
     }
     .portfolio1{
         width: 90%;
-        margin: 0px 0;
+        margin: 10px 0;
     }
     .serviceBoxes{
         width: 90%;
