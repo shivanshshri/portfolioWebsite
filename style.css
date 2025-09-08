@@ -246,7 +246,7 @@ nav ul li a{
     position: relative;
     max-width: 100%;
     min-height: 200px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/6;
     object-fit: contain;
 }
 #image2_portfolio{
@@ -255,7 +255,7 @@ nav ul li a{
     position: relative;
     max-width: 100%;
     min-height: 200px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/6;
     object-fit: contain;
 }
 #image3_portfolio{
@@ -264,7 +264,7 @@ nav ul li a{
     position: relative;
     max-width: 100%;
     min-height: 200px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/6;
     object-fit: contain;
 }
 #portfolioTitle{
