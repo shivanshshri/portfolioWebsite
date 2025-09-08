@@ -380,6 +380,18 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .bgAbout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageAbout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutMeText{
+        flex-direction: column;
+        align-items: center;
+    }
     .home{
         flex-direction: column;
         align-items: center;
