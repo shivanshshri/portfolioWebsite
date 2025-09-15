@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
 html{
-    background-image: linear-gradient(90deg, rgb(0, 0, 66),rgb(0, 0, 97),black,black);
+    background-image: linear-gradient(90deg,rgb(0, 0, 66),rgb(0, 0, 97),black,black);
 }
 a{
     text-decoration: none;
@@ -53,27 +53,7 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
-.hireMe{
-    margin-right: 0px;
-    border: 2px;
-    border-radius: 80px;
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.943),rgb(247, 39, 39),rgb(172, 112, 1));
-    height: 30px;
-    width:80px;
-    text-align: center;
-    padding: 10px;
-    
-}
 
-
-#hireMe{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-    font-family: 'poppins',sans-serif;
-    font-weight: 700;
-    padding: 10px;
-}
 .home{
     display: flex;
     justify-content: center;
@@ -180,6 +160,13 @@ nav ul li a{
     font-family: 'playfair display',sans-serif;
     font-weight:100;
     padding: 5px;
+}
+#aboutMe{
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 900;
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
 }
 
 #headService{
@@ -386,9 +373,13 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .serviceBoxes{
-        width: 90%;
-        margin: 10px 0;
+    .bgAbout{
+        width: 420px;
+    }
+    .imageAbout{
+        flex-direction: column;
+        width: 450px;
+        aspect-ratio: 7/9;
     }
     .servicesblock1{
         flex-direction: column;
