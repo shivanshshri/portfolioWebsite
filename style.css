@@ -182,7 +182,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     color: aliceblue;
 }
 .serviceBoxes{
@@ -194,7 +194,7 @@ nav ul li a{
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
 }
 #serviceHeading{
     text-align: center;
@@ -342,7 +342,7 @@ footer{
     font-weight: 400;
     margin: 0px 5px;
 }
-@media (max-width: 1200px){
+@media (max-width: 900px){
     .portfolioSection{
         flex-direction: column;
         align-items: center;
@@ -351,8 +351,24 @@ footer{
         width: 90%;
         margin: 10px 0;
     }
+    .about{
+        flex-direction: column;
+    }
+    .imageAbout{
+        width: 350px;
+        aspect-ratio: 7/9;
+    }
 }
-@media (max-width: 450px){
+@media (max-width: 900px){
+    .servicesblock1{
+        flex-direction: column;
+        align-items: center;
+        aspect-ratio: 7/7;
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 550px){
     .footerNav ul{
         flex-direction: column;
     }
@@ -371,14 +387,14 @@ footer{
     }
     .about{
         flex-direction: column;
-        align-items: center;
+        
     }
     .bgAbout{
         width: 420px;
     }
     .imageAbout{
         flex-direction: column;
-        width: 450px;
+        width: 350px;
         aspect-ratio: 7/9;
     }
     .servicesblock1{
@@ -388,6 +404,9 @@ footer{
     .home{
         flex-direction: column;
         align-items: center;
+    }
+    .text{
+        font-size: 4rem;
     }
     nav{
         flex-direction: column;
