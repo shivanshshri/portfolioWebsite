@@ -365,7 +365,7 @@ footer{
         margin: 10px 0;
     }
 }
-@media (max-width: 550px){
+@media (max-width: 450px){
     .footerNav ul{
         flex-direction: column;
     }
