@@ -420,7 +420,7 @@ footer{
     }
 }
 
-@media (max-width: 393px){
+@media (max-width: 400px){
     .footerNav ul{
         flex-direction: column;
     }
@@ -439,8 +439,11 @@ footer{
     }
     .about{
         flex-direction: column;
+        font-size: 0.5rem;
+        margin-left: 30px;
         
     }
+    
     .bgAbout{
         width: 420px;
     }
@@ -451,6 +454,7 @@ footer{
     }
     .servicesblock1{
         padding: 30px;
+        font-size: 0.5rem;
         flex-direction: column;
         align-items: center;
     }
