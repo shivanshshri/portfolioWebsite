@@ -462,8 +462,18 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .right{
+        margin-left: 20%;
+    }
 }
-
+@media (max-width: 380px){
+    .bgAbout{
+        margin-left: 25%;
+    }
+    #subtextAbout{
+        text-align: center;
+    }
+}
 @media (max-width: 480px){
     .footerNav ul{
         flex-direction: column;
