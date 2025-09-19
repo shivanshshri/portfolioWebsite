@@ -233,7 +233,7 @@ nav ul li a{
 .portfolio1{
     background-image: linear-gradient(180deg, #f9f7f5,#fff8f4,#1d3564,#000000);
     padding: 20px;
-    width: 100%;
+    width: calc(100%-40px);
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -242,7 +242,7 @@ nav ul li a{
 #image1_portfolio{
     background-image: url('portfolio_e-commerce.jpg');
     background-size: cover;
-    position: relative;
+    position:relative;
     max-width: 100%;
     min-height: 200px;
     aspect-ratio: 16/9;
@@ -364,13 +364,16 @@ footer{
     }
     .about{
         flex-direction: column;
+        align-items: center;
     }
     .imageAbout{
         width: 380px;
         aspect-ratio: 7/9;
     }
     .bgAbout{
+        
         margin-left: 15%;
+        margin-right: 15%;
     }
 }
 @media (max-width: 585px){
@@ -378,18 +381,34 @@ footer{
         margin-left: 10%;
         
     }
+    .portfolioSection{
+        margin-left: 0%;
+        margin-right: 0%;
+        align-items: center;
+    }
+    #image1_portfolio{
+        aspect-ratio: 7/6;
+        background-size: cover;
+    }
 }
-@media (max-width: 725px){
+@media (max-width: 735px){
+
+}
+@media (
+    max-width: 735px){
     .portfolioSection{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        width: calc(100% - 20px);
+        width: calc(100% 10%);
     }
     .portfolio1{
         min-width: 500px;
-        margin: 10px 0;
+        margin-left: 5%;
+        margin-right: 5%;
     }
+
+
 }
 @media (max-width: 740px){
     .servicesblock1{
