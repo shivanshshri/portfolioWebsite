@@ -7,7 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 html{
-    background-image: white;
+    background-image: linear-gradient(90deg,rgb(1, 1, 80),rgb(0, 0, 97),black,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* keeps it fixed on expansion */
+    background-size: cover; 
 }
 a{
     text-decoration: none;
@@ -187,7 +190,7 @@ nav ul li a{
 }
 .serviceBoxes{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.943),rgb(247, 39, 39),rgb(225, 152, 15));
-    width: calc(100% - 40px);
+    width: 100%;
     max-width: 1200px;
     padding: 30px;
     margin-top: 40px;
@@ -382,7 +385,7 @@ footer{
         flex-direction: column;
         align-items: center;
         aspect-ratio: 7/7;
-        width: calc(100% - 20px);
+        width: calc(100% - 0px);
         max-width: 720px;
         margin-right: 0px;
     }
