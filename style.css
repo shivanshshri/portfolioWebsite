@@ -492,8 +492,20 @@ footer{
     }
 }
 @media (max-width: 394px){
+    .about{
+        align-items: center;
+        width: 350px;
+    }
+    #subtextAbout{
+        font-size : 1rem;
+           
+    }
     .bgAbout{
-        margin-left: 29%;
+        margin-left: 100%;
+        margin-right: 100%;
+        text-align: center;
+        width:calc(100%-140%);
+        aspect-ratio: 16/9;
     }
     .image{
         margin-left: 12%;
@@ -504,17 +516,30 @@ footer{
         text-align: center;
     }
     .right {
-        margin-left: 20%;
+        margin-left: 35%;
         align-items: center;
     }
     .left{
         margin-left: 10%;
     }
     .text{
-        margin-left: 7%;
+        margin-left: 5%;
     }
     .imageAbout{
         margin-left: -10%;
+    }
+    .serviceBoxes{
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    #image1_portfolio{
+        align-self: center;
+        width: 384px;
+        aspect-ratio: 4/3;
+        margin-left: 11%;
+    }
+    .portfolio1{
+        width: 393px;
     }
 }
 @media (max-width: 480px){
