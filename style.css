@@ -532,14 +532,41 @@ footer{
         margin-left: 0%;
         margin-right: 10%;
     }
-    #image1_portfolio{
-        align-self: center;
-        width: 384px;
-        aspect-ratio: 4/3;
-        margin-left: 11%;
+.portfolioSection{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
     }
     .portfolio1{
-        width: 393px;
+        width: 100%;              /* fill available width */
+        max-width: 100%;          /* prevent overflow */
+        margin: 10px 0;           /* spacing */
+        padding: 10px;            /* adjust padding */
+    }
+    #image1_portfolio,
+    #image2_portfolio,
+    #image3_portfolio{
+        width: 100%;              /* responsive width */
+        max-width: 100%;
+        aspect-ratio: 16/21;       /* keeps proportion */
+        margin: 0 auto;
+        background-size: cover;
+    }
+    #portfolioTitle{
+        font-size: 1.4rem;        /* reduce font size */
+        text-align: center;
+    }
+    #portfolioSubtext{
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    footer{
+        width: 110%;
+        
     }
 }
 @media (max-width: 480px){
