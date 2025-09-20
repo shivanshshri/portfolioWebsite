@@ -540,19 +540,21 @@ footer{
         padding: 0 10px;
     }
     .portfolio1{
-        width: 100%;              /* fill available width */
+        width: calc(100%);              /* fill available width */
         max-width: 100%;          /* prevent overflow */
         margin: 10px 0;           /* spacing */
-        padding: 10px;            /* adjust padding */
+        padding: 10px;  
+        margin-left: 50%;          /* adjust padding */
     }
     #image1_portfolio,
     #image2_portfolio,
     #image3_portfolio{
-        width: 100%;              /* responsive width */
+        width: 90%;              /* responsive width */
         max-width: 100%;
-        aspect-ratio: 16/21;       /* keeps proportion */
+        aspect-ratio: 16/19;       /* keeps proportion */
         margin: 0 auto;
         background-size: cover;
+        margin-left: 10%;
     }
     #portfolioTitle{
         font-size: 1.4rem;        /* reduce font size */
@@ -566,7 +568,7 @@ footer{
         
     }
     footer{
-        width: 125%;
+        width: 120%;
         
     }
 }
@@ -584,7 +586,7 @@ footer{
         align-items: center;
     }
     .portfolio1{
-        width: calc(100% - 40px);
+        width: calc(100% - 20px);
         margin: 10px 0;
         height: auto;
     }
