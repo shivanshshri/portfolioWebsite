@@ -501,10 +501,10 @@ footer{
            
     }
     .bgAbout{
-        margin-left: 100%;
-        margin-right: 100%;
+        margin-left: 15%;
+        margin-right: 10%;
         text-align: center;
-        width:calc(100%-140%);
+        width:calc(100%-20%);
         aspect-ratio: 16/9;
     }
     .image{
@@ -562,10 +562,11 @@ footer{
         font-size: 1rem;
         padding: 10px;
         text-align: center;
+        margin-left: 10%;
         
     }
     footer{
-        width: 110%;
+        width: 125%;
         
     }
 }
